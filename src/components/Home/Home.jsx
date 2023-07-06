@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+
 import { filterByPrice } from "../../features/products/productsSlice";
 
+import Banner from "../Banner/Banner";
 import Categories from "../Categories/Categories";
 import Poster from "../Poster/Poster";
 import Products from "../Products/Products";
-import Banner from "../Banner/Banner";
 
 const Home = () => {
   const dispatch = useDispatch();
